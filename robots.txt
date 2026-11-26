@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mouaderrakitech.dpdns.org/sitemap.xml
