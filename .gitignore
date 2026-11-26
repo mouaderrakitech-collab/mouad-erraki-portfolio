@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.zip
+*.log
+.vscode/
+ASSETS-MANQUANTS.txt
+README-MAJ.txt
