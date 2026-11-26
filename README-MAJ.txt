@@ -1,1 +1,0 @@
-Fusionner avec le dossier original en conservant les médias externes. CV PDF créé à partir de la capture fournie (image, non texte). URL canonique reprise du CV : vérifier le domaine HTTPS avant publication. Les certificats et médias externes non fournis restent à ajouter. Aucun classement Google garanti.
