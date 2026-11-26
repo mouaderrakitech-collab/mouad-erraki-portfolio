@@ -1,0 +1,29 @@
+
+  .has3d #bg3d{filter:saturate(.72) contrast(1.08)}
+  .bg-grid{opacity:.07}
+  .hero-art .orb{display:none}
+  .hero-photo{position:relative;width:min(560px,100%);aspect-ratio:4/3;margin:0;overflow:hidden;border:1px solid rgba(255,255,255,.18);border-radius:22px;background:#111923;box-shadow:0 32px 80px rgba(0,0,0,.48)}
+  .hero-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.86) contrast(1.06);display:block}
+  .hero-photo:after{content:"";position:absolute;inset:30% 0 0;background:linear-gradient(180deg,transparent 0%,rgba(5,9,14,.86) 100%);pointer-events:none}
+  .hero-photo figcaption{position:absolute;z-index:1;left:24px;right:24px;bottom:22px;display:grid;gap:5px;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+  .hero-photo figcaption span{color:#ffd16b;font-size:10px;font-weight:800;letter-spacing:1.6px}
+  .hero-photo figcaption strong{font-size:clamp(20px,2.4vw,30px);line-height:1.15;color:#fff}
+  .hero-photo figcaption small{font-size:12px;color:#d4deeb}
+  .logo{display:inline-flex;align-items:center;gap:8px}
+  .logo-wand{width:32px;height:32px;object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 0 3px rgba(255,209,107,.35))}
+  .hero-photo img{transition:opacity .28s ease}
+  .hero-photo img.is-changing{opacity:.35}
+  .hero-photo-dots{position:absolute;z-index:2;top:16px;right:16px;display:flex;align-items:center;gap:8px;padding:9px 11px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(5,9,14,.62);backdrop-filter:blur(10px)}
+  .hero-photo-dots button{width:8px;height:8px;padding:0;border:0;border-radius:999px;background:rgba(255,255,255,.55);cursor:pointer;transition:width .2s ease,background .2s ease}
+  .hero-photo-dots button[aria-pressed="true"]{width:20px;background:#ffd16b}
+  .hero-photo-dots button:focus-visible{outline:2px solid #fff;outline-offset:3px}
+  .scepter{display:none}
+  .t-title{display:none!important}
+  @media(max-width:900px){
+    .has3d #bg3d{filter:saturate(.68) contrast(1.06)}
+    .hero{background-image:linear-gradient(90deg,rgba(8,11,16,.9),rgba(8,11,16,.62)),var(--hero-photo-bg,url("../assets/stages/humrtec/IMG_20250315_100607.jpg"));background-position:center;background-size:cover}
+    .hero-art{display:none}
+  }
+  @media(prefers-reduced-motion:reduce){.hero-photo img,.hero-photo-dots button{transition:none}}
+
+.timeline-item .mission-list, .cv-sheet .cv-tl .mission-list {list-style:none;padding:0;margin:12px 0 0;} .timeline-item .mission-list > li, .cv-sheet .cv-tl .mission-list > li {position:relative;padding:0 0 0 19px;margin:0 0 9px;border:0;line-height:1.55;color:inherit;} .timeline-item .mission-list > li::before,.cv-sheet .cv-tl .mission-list > li::before {content:"–";position:absolute;left:0;top:0;color:#ffbf36;background:none;border:0;box-shadow:none;width:auto;height:auto;transform:none;}
